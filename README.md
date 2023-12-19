@@ -1,5 +1,5 @@
 # Pasas1345 Map Configs
-This is where all of my configs for my maps are.
+This is where all of my configs for my maps are. Servers would be placing these in their respective folders.
 
 ### Stripper Configs:
 They are responsible for any changes that I need to push without any map recompilation.
