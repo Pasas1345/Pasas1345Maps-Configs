@@ -5,7 +5,7 @@ This is where all of my configs for my maps are. Servers would be placing these 
 They are responsible for any changes that I need to push without any map recompilation.
 
 ### EntWatch Configs:
-2 Seperate Versions are included: 1 for Regular Entwatch and 1 for Unloze Entwatch (v4)
+2 Seperate Versions are included: 1 for Regular Entwatch and 1 for Unloze Entwatch (v4)  
 EntWatch is responsible for tracking the item cooldowns and restrictions of item usages
 
 ### BossHP Configs:
