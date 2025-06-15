@@ -756,6 +756,7 @@ function MapInit() {
 
 function Stage1_Setup() {
 	// Loop through every torch particle
+	printl("Creating Torch Particles")
 	foreach(o in act1_torch_particles_origins)	{
 		CreateEntity("info_particle_system", {
 			targetname = "act01_torch_particle"
@@ -766,6 +767,7 @@ function Stage1_Setup() {
 	}
 
 	// Spawn the wand
+	printl("Creating Nobeta's Wand")
 	EntFire("act01_wand_spawn_location", "ForceSpawn", null, 0)
 }
 
@@ -813,7 +815,8 @@ function HandleStage() {
 			ClientPrint(null, 3, "-- Act 1 — Okun Shrine --")
 			if (EXTREME_MODE)
 				ClientPrint(null, 3, "\x07FC8916-- Advanced Mode --")
-			
+
+			printl("== Setting up Stage 1 ==")
 			Stage1_Setup()
 			SetLateTeleport("act01_spawn_teleport")
 
