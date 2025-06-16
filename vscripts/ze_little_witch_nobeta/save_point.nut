@@ -1,3 +1,7 @@
+// ====================================================================
+// VScript Patch intended for Stripper Config Alpha 2 - Iteration #2 
+// ====================================================================
+
 // This is set on a func button, inside a save point statue
 healed_players <- {}
 zm_taken_items <- {}
