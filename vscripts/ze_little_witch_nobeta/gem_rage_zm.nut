@@ -1,3 +1,7 @@
+// ====================================================================
+// VScript Patch intended for Stripper Config Alpha 2b - Iteration #2 
+// ====================================================================
+
 base_script <- null
 base_script_entity <- null
 
